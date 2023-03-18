@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(78, 185, 36);
+}
+
+.koala{
+    width: 100px;
+    height: 100px;
+}
+
+#imagen_1{
+    border: solid 10px #000;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+  }
+
+.hijo {
+    margin: 0 auto;
+    background-color: red;
+    width: 10%;
+  }
+
+p {
+    text-align: center;
+  }
+
+
