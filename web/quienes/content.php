@@ -1,1 +1,5 @@
-<h1 class="border">Quines</h1>
+<h1 class="border">Quienes</h1>
+
+<?php echo "hola"; ?>
+<br>
+<?php echo strlen($pagina); ?>

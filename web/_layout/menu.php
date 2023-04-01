@@ -5,16 +5,36 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-      <li class="nav-item active">
+      <li class="nav-item <?php 
+
+
+
+          if ($pagina == "home"){
+            //aqui va el codigo si la regka es verdadera es decir true
+            echo 'active';
+          }
+
+          //hacer si
+
+          // == igual a
+          // = asignarcion 
+          // != diferente a
+          // > mayor que
+          // < menor que
+          // >= mayor o igual a
+          // <= menor igual a
+      
+      
+      ?>">
         <a class="nav-link" href="../home/">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item <?php if($pagina == "contactos"){ echo "active"; } ?>">
         <a class="nav-link" href="../contact/">Contactanos</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item <?php if($pagina == "quienes"){ echo "active"; } ?>">
         <a class="nav-link" href="../quienes/">Quienes Somos</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item <?php if($pagina == "usuarios"){ echo "active"; } ?>">
         <a class="nav-link" href="../usuarios">Usuarios</a>
       </li>
     </ul>

@@ -1,3 +1,6 @@
+<?php
+$pagina = "home"; 
+?>
 <!doctype html>
 <html lang="es">
   <head>

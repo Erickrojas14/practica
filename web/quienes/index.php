@@ -1,3 +1,6 @@
+<?php
+$pagina = "quienes"; 
+?>
 <!doctype html>
 <html lang="es">
   <head>
